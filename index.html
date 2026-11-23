@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="정보융합학부 김현승의 자기소개 페이지입니다.">
+  <meta name="description" content="AI와 웹 개발에 관심 있는 정보융합학부 3학년 김현승의 자기소개와 프로젝트입니다.">
   <title>김현승 | 자기소개</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -21,6 +21,11 @@
     .card .number { display: block; color: #94a3b8; font-size: 12px; margin-bottom: 20px; }
     .card h3 { color: #38bdf8; font-size: 18px; margin-bottom: 10px; }
     .card p { font-size: 14px; line-height: 1.8; color: #cbd5e1; word-break: keep-all; }
+    .projects { margin-top: 56px; }
+    .project { border-top: 1px solid #29364c; padding-top: 24px; }
+    .project h3 { color: #38bdf8; font-size: 22px; margin-bottom: 14px; word-break: keep-all; }
+    .project p { color: #cbd5e1; font-size: 16px; line-height: 1.8; word-break: keep-all; }
+    .project .tools { margin-top: 16px; color: #94a3b8; font-size: 14px; }
     footer { margin-top: 48px; padding-top: 22px; border-top: 1px solid #263349; color: #94a3b8; font-size: 12px; line-height: 1.8; }
     @media (max-width: 720px) { .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } .main { padding: 44px 24px; } }
     @media (max-width: 380px) { .cards { grid-template-columns: 1fr; } .intro { font-size: 16px; } }
@@ -31,19 +36,25 @@
     <div class="container">
       <p class="label">PERSONAL INTRODUCTION</p>
       <h1>김현승</h1>
-      <p class="major">정보융합학부</p>
-      <h2>정보와 기술을 연결하며,<br>새로운 가능성을 배우고 싶습니다.</h2>
-      <!-- 이름과 학부 외의 소개 문구는 전공에 맞춰 제안한 초안입니다. -->
+      <p class="major">정보융합학부 · 3학년</p>
+      <h2>AI와 웹 개발을 배우며,<br>웹 개발자를 목표로 성장합니다.</h2>
       <div class="intro">
-        <p>안녕하세요. 정보융합학부 김현승입니다.<br>다양한 정보가 기술을 통해 의미 있는 결과로 이어지는 과정을 배우고, 그 배움을 일상 속 문제 해결에 활용하고 싶습니다.</p>
-        <p>프로그래밍의 기초를 탄탄히 다지고, 데이터와 인공지능이 어떻게 활용되는지 탐구해 나가고자 합니다. 작은 아이디어라도 직접 구현해 보며, 시행착오 속에서 이해의 폭을 넓히는 것이 목표입니다.</p>
-        <p>앞으로 서로 다른 생각을 나누고 함께 배우는 경험을 쌓으며, 사람들에게 도움이 되는 기술을 만드는 사람으로 성장하고 싶습니다.</p>
+        <p>안녕하세요. 정보융합학부 3학년 김현승입니다.<br>AI와 웹 개발에 관심이 있으며, 웹 개발자를 목표로 공부하고 있습니다.</p>
+        <p>현재 Python과 HTML을 학습하고 있습니다. AI를 활용한 사용자 활용성 분석 앱 프로젝트를 통해 배운 내용을 직접 구현해 보고 있습니다.</p>
       </div>
-      <section class="cards" aria-label="앞으로 배우고 싶은 분야와 목표">
-        <article class="card"><span class="number">01 / FOUNDATION</span><h3>프로그래밍</h3><p>기초부터 차근차근<br>아이디어를 코드로 구현하기</p></article>
-        <article class="card"><span class="number">02 / EXPLORATION</span><h3>데이터 · AI</h3><p>정보 속 의미를 찾고<br>인공지능 활용법 탐구하기</p></article>
-        <article class="card"><span class="number">03 / CONNECTION</span><h3>융합적 사고</h3><p>다양한 관점을 연결해<br>문제 해결 방법 넓히기</p></article>
-        <article class="card"><span class="number">04 / GROWTH</span><h3>함께 성장</h3><p>생각과 배움을 나누며<br>협업 경험 쌓아가기</p></article>
+      <section class="cards" aria-label="관심 분야와 학습 기술">
+        <article class="card"><span class="number">INTEREST</span><h3>AI</h3><p>인공지능 활용과<br>분석 앱 개발에 관심</p></article>
+        <article class="card"><span class="number">GOAL</span><h3>웹 개발</h3><p>웹 개발자를 목표로<br>기초부터 학습 중</p></article>
+        <article class="card"><span class="number">LEARNING</span><h3>Python</h3><p>프로그래밍 학습 및<br>AI 분석 앱에 활용</p></article>
+        <article class="card"><span class="number">LEARNING</span><h3>HTML</h3><p>웹 페이지의 구조와<br>작성 방법 학습 중</p></article>
+      </section>
+      <section class="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">프로젝트</h2>
+        <article class="project">
+          <h3>AI를 통한 분석 앱</h3>
+          <p>AI를 활용해서 사용자 활용성을 분석하는 앱입니다.</p>
+          <p class="tools"><strong>사용한 도구</strong> · Python, LLM API</p>
+        </article>
       </section>
       <footer>© 2026 김현승 · 정보융합학부<br>배우고, 연결하고, 한 걸음씩 성장하기.</footer>
     </div>
